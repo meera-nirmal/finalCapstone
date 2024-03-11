@@ -4,13 +4,14 @@
 A Python programme that performs sentiment analysis on a dataset of reviews of Amazon products using NLP. This programme uses the simple English language model for natural language processing (NLP) and the spacytextblob library to gather the sentiment towards Amazon's products based on a database of reviews provided by Datafiniti.
 
 ## Contents
----
-Section 1: Installation
-Section 2: Usage
-Section 3: Author
----
+| Section | Description        |
+| ------- | ------------------ |
+| [Installation](#installation) | Provides information about how to install the project. |
+| [Usage](#usage)                | Provides information about how to use the project.        |
+| [Author](#author)              | Provides information about the author of the project.     |
 
-## Installation
+
+## Installation <a name="installation"></a>
 Download python from the following link:
 https://www.python.org/downloads/
 
@@ -103,7 +104,7 @@ pip3 install collections
 Clone the repsitory by typing the following into your terminal within your virtual environment and in the relevant folder that you want the project to be in:
 git clone https://github.com/meera-nirmal/finalCapstone/.git
 
-## Usage
+## Usage <a name="usage"></a>
 
 In order to use this programme, either:
 a) download the file in this repository
@@ -152,7 +153,7 @@ The sentiment of both of the reviews above are positive and thus have some simil
 The following shows which words were identified as having a positive and negative sentiment in the model:
 ![Figure_1_pos_and_neg_words_identified](https://github.com/meera-nirmal/finalCapstone/assets/152800399/1a83a208-b053-4360-8320-1b010978d724)
 
-## Author
+## Author <a name="author"></a>
 
 This programme was written my Meera Nirmal.
 The link to the profile is: 

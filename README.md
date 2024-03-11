@@ -46,9 +46,15 @@ deactivate
 
 To install spacy via pip type the following commands on at a time in your terminal:
 
+```
 pip install -U pip setuptools wheel
+```
+```
 pip install -U spacy
+```
+```
 python -m spacy download en_core_web_sm
+```
 
 The final command downloads the small English package. You could alternatively download the medium sized package by replacing "en_core_web_sm" with "en_core_web_md" to get more accurate results when running the programme. If you choose to do so, anytime the 'en_core_web_sm' is used, just replace 'sm' with 'md'.
 
@@ -64,23 +70,35 @@ If the environment is not listed you may specify the path by clicking "Enter int
 
 To download the other essential libraries the following one at a time in your terminal in the virtual environment you intend to use:
 
-1. pip3 install pandas
-   (To create a dataframe using the data provided)
+1. To create a dataframe using the data provided
+```
+pip3 install pandas
+```
 
-3. pip3 install spacytextblob
-   (To perform sentiment analysis)
+2. To perform sentiment analysis
+```
+pip3 install spacytextblob
+```
 
-4. python3 -m textblob.download_corpora
-   (To download the additional data for spacytextblob)
+3. To download the additional data for spacytextblob
+```
+python3 -m textblob.download_corpora
+```
 
-5. pip3 install wordcloud
-   (To visualise polarity and sentiment)
+4. To visualise polarity and sentiment
+```
+pip3 install wordcloud
+```
 
-6. pip3 install matplotlib
-   (To aid the visualisation)
+5. To aid the visualisation
+```
+pip3 install matplotlib
+```
 
-7. pip3 install collections
-   (For categorising positive and negative words in a default dictionary)
+6. For categorising positive and negative words in a default dictionary
+```
+pip3 install collections
+```
 
 Clone the repsitory by typing the following into your terminal within your virtual environment and in the relevant folder that you want the project to be in:
 git clone https://github.com/meera-nirmal/finalCapstone/.git
@@ -90,7 +108,9 @@ git clone https://github.com/meera-nirmal/finalCapstone/.git
 In order to use this programme, either:
 a) download the file in this repository
 b) download a dataset provided by Datafinity from Kaggle: 
+```
 https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products
+```
 
 Ensure that you have specified the path of where you have saved the dataset of reviews that you will be using for the sentiment analysis here:
 
@@ -111,6 +131,7 @@ The following shows the processed reveiws which have stop words removed and word
 <img width="663" alt="Understanding polarity" src="https://github.com/meera-nirmal/finalCapstone/assets/152800399/c3f01225-8579-43a1-ae8d-d355ce8dc418">
 
 The following shows a tuple of both polarity and subjectivity scores. The higher the score (i.e. the closer the score is to 1), the more subjective the review is:
+
 <img width="708" alt="sentiment_and_subjectivity" src="https://github.com/meera-nirmal/finalCapstone/assets/152800399/ee765452-9680-458d-a8f8-31153c7f21d0">
 
 The following shows the sentiment in words based on the polarity scores of the processed reviews:
@@ -134,4 +155,7 @@ The following shows which words were identified as having a positive and negativ
 ## Author
 
 This programme was written my Meera Nirmal.
-The link to the profile is: https://github.com/meera-nirmal
+The link to the profile is: 
+```
+https://github.com/meera-nirmal
+```
